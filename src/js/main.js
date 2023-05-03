@@ -3,13 +3,15 @@ import MiniSlider from "./modules/slider/slider-mini";
 import VideoPlayer from "./modules/playVideo";
 import Difference from "./modules/difference";
 import Form from "./modules/forms";
+import ShowInfo from "./modules/showInfo";
+import Download from "./modules/download";
 
 
 window.addEventListener('DOMContentLoaded', () => {
     const slider = new MainSlider({btns: '.next', container: '.page'});
     slider.render();
 
-    const modulePageSlider = new MainSlider({container: '.moduleapp', btns: '.next', prevBtn: '.prevmodule', nextBtn: '.nextmodule'});
+    const modulePageSlider = new MainSlider({container: '.moduleapp', btns: '.sidecontrol .next', prevBtn: '.prevmodule', nextBtn: '.nextmodule'});
     modulePageSlider.render();
 
     const showUpSlider = new MiniSlider({
@@ -45,4 +47,8 @@ window.addEventListener('DOMContentLoaded', () => {
     new Difference('.officerold', '.officernew', '.officer__card-item').init();
 
     new Form('.form').init();
+
+    new ShowInfo('.plus__content').init();
+
+    new Download('.download').init();
 });
