@@ -1,9 +1,9 @@
 # Loan
----
+
 ## This project is from the course ["Practical JavaScript (Advanced Level)"](https://www.udemy.com/course/javascript_practice/)
----
+
 ### The multi-page website and scripts implemented entirely in an object-oriented programming (OOP) style.
----
+
 - Layout and Gulp assembly were already ready and I was learning to work with scripts
 - The technical task [here](https://docs.google.com/document/d/1CjrqmuO8sdrEL8XbQjfSsK4_kcnxD_xAnoCUR66RwVA/edit)
 ## Implemented functionality according to the course:
